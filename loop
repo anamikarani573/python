@@ -1,0 +1,9 @@
+total=0
+def sum(a,b):
+    print("a:",a)
+    print("b",b)
+    total=a+b
+    print("total inside function:",total)
+    return total
+n=sum(b=7,a=5)
+print("total outside function:",total)
